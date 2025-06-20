@@ -11,7 +11,10 @@ data= [5, 3, 2, 4, 4, 1]
 sorted_array = bubble_sort(data)
 print("Sorted array is:", sorted_array)
 
-    
-        
-    
+# reverse the array
+def reverse_array(data):
+    return data[::-1]
+reversed_array = reverse_array(sorted_array)
+print("Reversed array is:", reversed_array)
+
  

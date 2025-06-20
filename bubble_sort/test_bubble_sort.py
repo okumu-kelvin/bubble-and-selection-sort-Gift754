@@ -8,3 +8,4 @@ def test_reverse():
 
 def test_duplicates():
     assert bubble_sort([4, 5, 3, 4]) == [3, 4, 4, 5]
+    
